@@ -11,7 +11,7 @@ import RadarAnimation from './components/RadarAnimation'
 import MapPanel from './components/MapPanel'
 import DetectionHistory from './components/DetectionHistory'
 
-const API = 'http://localhost:8000'
+const API = 'https://skyguard-ai-h2yq.onrender.com'
 
 export default function App() {
   const [systemStatus, setSystemStatus] = useState('CONNECTING')
